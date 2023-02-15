@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -f 1,7| sort -k2 -r|head -n 12 | tail -n11| cut -f1
+cut -f 1,7| sort -k2 -rn |head -n 12 | tail -n11|cut -f1
